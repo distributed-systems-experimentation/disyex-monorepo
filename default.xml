@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin"
+          fetch="git@github.com:distributed-systems-experimentation/"/>
+
+  <default revision="main"
+           remote="origin"
+           sync-j="4"/>
+
+
+  <project path="car" name="car.git"/>
+  <project path="car/infra" name="infra.git"/>
+
+  <project path="car/body_ecu" name="body_ecu.git"/>
+  <project path="car/body_ecu/tire_monitor" name="tire_monitor.git"/>
+  <project path="car/body_ecu/ecu_engine" name="ecu_engine.git"/>
+
+  <project path="car/central_ecu" name="central_ecu.git"/>
+  <project path="car/central_ecu/ecu_dashboard" name="ecu_dashboard.git"/>
+
+</manifest>
